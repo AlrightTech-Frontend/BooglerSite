@@ -2777,9 +2777,20 @@ label {
 	background: linear-gradient(89.78deg, rgba(200 189 255 / 20%) -31.69%, rgba(186 166 255 / 20%) -22.78%, rgba(103 33 255 / 20%) 27.93%, rgba(0 203 255 / 20%) 99.79%);
 	display: inline-flex;
 	border-radius: 10px;
+	flex-wrap: wrap;
+	width: 80%;
 	border: 1px solid rgba(255 255 255 / 20%);
 	padding: 10px 30px;
 	margin-bottom: 60px;
+}
+
+@media(max-width:768px)
+{
+	.use-cases-nav-wrap .nav-tabs {
+		 
+		width: 100%;
+		 
+	}
 }
 .use-cases-nav-wrap .nav-tabs .nav-link {
 	margin-bottom: 0;
@@ -2788,6 +2799,7 @@ label {
 	border-radius: 10px;
 	font-weight: 500;
 	font-size: 16px;
+	width: 120px;
 	color: var(--tg-white);
 	padding: 6px 15px;
 }
@@ -3964,6 +3976,7 @@ label {
 }
 .testimonial-item {
 	position: relative;
+	height: 320px;
 	padding: 40px 35px 35px 135px;
 }
 .testimonial-shape {
