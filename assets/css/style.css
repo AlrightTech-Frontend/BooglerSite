@@ -2403,6 +2403,7 @@ label {
 	position: relative;
 	padding: 40px 50px 40px 95px;
 	z-index: 1;
+	height: 290px;
 	margin-bottom: 30px;
 	transition: .3s linear;
 	transform: translateY(0);
