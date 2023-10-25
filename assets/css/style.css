@@ -110,6 +110,9 @@ main.main-content {
 	z-index: 1;
 	background-color: var(--tg-black-two);
 }
+.bogglerLogo{
+	height: 50px !important;
+}
 .noise-bg {
 	background-size: cover;
 	background-position: center;
