@@ -1915,7 +1915,7 @@ label {
 	gap: 30px;
 }
 .inner-about-content .content-bottom p {
-	width: 59%;
+	width: 100%;
 	font-size: 18px;
 	margin-bottom: 0;
 }
@@ -3779,6 +3779,7 @@ label {
 	position: absolute;
 	left: 7px;
 	top: 14px;
+	
 	background: var(--tg-gradient-color);
 	border-radius: 50%;
 	color: var(--tg-white);
@@ -3795,6 +3796,11 @@ label {
 	border-radius: 50%;
 	background: #331a5d;
 	z-index: -1;
+}
+.tools-icon img{
+	width: 30px;
+	height: 30px;
+	
 }
 .tools-content .title {
 	font-size: 20px;
@@ -4025,6 +4031,8 @@ label {
 }
 .testimonial-thumb img {
 	border-radius: 50%;
+	width: 60px;
+	height: 60px;
 }
 .testimonial-active .slick-list {
 	overflow: visible;
@@ -6105,4 +6113,53 @@ label {
     transform: scaleY(1.0);
     -webkit-transform: scaleY(1.0);
   };
+}
+
+
+
+.offerlistset{
+	height: 300px;
+	overflow-y: scroll;
+}
+
+.offerlistset::-webkit-scrollbar {
+  width: 1px;
+}
+ 
+.offerlistset::-webkit-scrollbar-track {
+	
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.offerlistset::-webkit-scrollbar-thumb {
+  background-color: #6721FF;
+  outline: 1px solid slategrey;
+}
+
+.tabpanimg img{
+	width: 80% !important;
+
+}
+
+@media(max-width:768px)
+{
+	.tabpanimg img{
+	width: 100% !important;
+
+}
+}
+
+.buttonnaveset button{
+	 border: 1px solid white;
+	 border-radius: 10px;
+margin: 2px;
+}
+
+@media(max-width:554px)
+{
+	.tools-icon img{
+	width: 20px;
+	height: 20px;
+	
+}
 }
