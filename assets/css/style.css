@@ -3590,6 +3590,7 @@ color: #fff;
 }
 .pricing-item-three {
   border-radius: 20px;
+  height: 710px !important;
   padding: 45px 40px 50px;
   background: var(--tg-black-four);
   margin-bottom: 10px;
@@ -3598,6 +3599,19 @@ color: #fff;
   z-index: 1;
   
 }
+@media screen and (max-width: 1130px) {
+	.pricing-item-three {
+		border-radius: 20px;
+		height: 750px !important;
+		padding: 45px 40px 50px;
+		background: var(--tg-black-four);
+		margin-bottom: 10px;
+		position: relative;
+		overflow: hidden;
+		z-index: 1;
+		
+	  }
+  }
 .pricing-top-content-two {
   margin-bottom: 30px;
 }
@@ -4107,6 +4121,20 @@ background: linear-gradient(to right, rgb(0, 74, 173), rgb(92, 224, 230));;
   height: 320px;
   padding: 40px 35px 35px 135px;
 }
+@media screen and (max-width: 852px) {
+	.testimonial-item {
+		position: relative;
+		height: 420px;
+		padding: 40px 35px 35px 135px;
+	  }
+  }
+@media screen and (max-width: 450px) {
+	.testimonial-item {
+		position: relative;
+		height: 450px;
+		padding: 40px 35px 35px 135px;
+	  }
+  }
 .testimonial-shape {
   position: absolute;
   left: 0;
