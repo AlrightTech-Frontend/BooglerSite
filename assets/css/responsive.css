@@ -978,11 +978,12 @@
 	gap: 15px;
 	flex-wrap: wrap;
 }
-.banner-content .title.ah-headline {
+/* .banner-content .title.ah-headline {
 	display: none;
-}
+} */
 .banner-content .title.d-none {
-	display: block !important;
+	/* display: block !important; */
+	display: none ;
 }
 .banner-content .title {
 	font-size: 38px;
