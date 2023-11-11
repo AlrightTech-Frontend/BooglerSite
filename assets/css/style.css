@@ -5776,7 +5776,7 @@ label {
 	align-items: center;
 	justify-content: flex-end;
 	flex-wrap: wrap;
-	gap: 10px 25px;
+	gap: 5px 12px;
 }
 .footer-menu .list-wrap li a {
 	font-size: 15px;
@@ -6162,4 +6162,29 @@ margin: 2px;
 	height: 20px;
 	
 }
+}
+/* New Code For Index  */
+
+.llm{
+	color: #7ED957;
+}
+.writing-item:hover .writing-icon img{
+	/* transform: rotateX(-1); */
+	transform: rotateY(180deg);
+}
+@media(max-width:470px){
+	.logo a img{
+		width: 8.5rem;
+		height: 2.5rem !important;
+	}
+	.header-action .header-btn .btn{
+		padding: 8px 15px !important; 
+	}
+	.menu-nav {
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		gap: 15px;
+	}
 }
