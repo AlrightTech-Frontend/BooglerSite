@@ -1555,12 +1555,31 @@ label {
   line-height: 1;
   letter-spacing: -0.01em;
 }
+.aboutHead{
+  margin-bottom: 0;
+  font-size: 70px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
 .breadcrumb-content .title span {
   background: var(--tg-gradient-color);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
   background-clip: text;
 }
+.bogg{
+  background: var(--tg-gradient-color);
+  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  color: #7F47FF !important;
+  background-clip: text;
+}
+
+@media screen and (max-width: 576px) {
+	 .aboutHead{
+font-size: 40px;
+	 }
+  }
 
 /*=============================
 	06. Video
@@ -5804,7 +5823,7 @@ background: linear-gradient(to right, rgb(0, 74, 173), rgb(92, 224, 230));;
 	31. Footer
 ===============================*/
 .footer-area {
-  background: var(--tg-cetacean-blue);
+  background: #151515 !important;
   z-index: 3;
   position: relative;
 }
