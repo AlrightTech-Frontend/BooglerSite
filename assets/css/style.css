@@ -4129,9 +4129,12 @@ background: linear-gradient(to right, rgb(0, 74, 173), rgb(92, 224, 230));;
 	  }
   }
 @media screen and (max-width: 450px) {
+	.section-title-three .title {
+		font-size: 32px !important;
+	}
 	.testimonial-item {
 		position: relative;
-		height: 450px;
+		height: 510px;
 		padding: 40px 35px 35px 135px;
 	  }
   }
